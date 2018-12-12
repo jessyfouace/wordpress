@@ -143,7 +143,8 @@
 }
 .woocommerce.single-product div.product form.cart table.variations td.value:before {
   content: '\f0d7';
-  font-family: FontAwesome;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 600;
   position: absolute;
   top: 7px;
   right: 10px;
@@ -170,7 +171,7 @@
   position: absolute;
   bottom: 30px;
 }
-.woocommerce .page-header .container .cart-contents-content .fa {
+.woocommerce .page-header .container .cart-contents-content .fa, .woocommerce .page-header .container .cart-contents-content .far, .woocommerce .page-header .container .cart-contents-content .fas, .woocommerce .page-header .container .cart-contents-content .fab {
   vertical-align: -2px;
   margin-right: 5px;
 }
@@ -180,7 +181,8 @@
 }
 .woocommerce div.product form.cart .reset_variations:after {
   margin-left: 5px;
-  font-family: "Fontawesome";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
   content: "\f00d";
 }
 .woocommerce div.product form.cart input {
@@ -190,7 +192,8 @@
 }
 .woocommerce div.product form.cart .button:after {
   margin-left: 10px;
-  font-family: "Fontawesome";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
   content: "\f07a";
 }
 .woocommerce div.product .woocommerce-tabs ul.tabs {
@@ -515,7 +518,8 @@
 }
 .woocommerce .woocommerce-ordering:before {
   content: '\f0d7';
-  font-family: FontAwesome;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 600;
   position: absolute;
   top: 0;
   right: 0;
@@ -1324,10 +1328,11 @@ div[id^=woocommerce_layered_nav_filters].widget li a:before {
   opacity: 1;
 }
 .woocommerce-account .woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link--dashboard a:before, .woocommerce-account .woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link--orders a:before, .woocommerce-account .woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link--downloads a:before, .woocommerce-account .woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link--edit-address a:before, .woocommerce-account .woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link--payment-methods a:before, .woocommerce-account .woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link--edit-account a:before, .woocommerce-account .woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link--customer-logout a:before {
-  font-family: "FontAwesome";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
 }
 .woocommerce-account .woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link--dashboard a:before {
-  content: "\f0e4";
+  content: "\f3fd";
 }
 .woocommerce-account .woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link--orders a:before {
   content: "\f291";
@@ -1345,7 +1350,7 @@ div[id^=woocommerce_layered_nav_filters].widget li a:before {
   content: "\f007";
 }
 .woocommerce-account .woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link--customer-logout a:before {
-  content: "\f08b";
+  content: "\f2f5";
 }
 .woocommerce-account .woocommerce-MyAccount-content h2 {
   text-align: center;
@@ -1413,7 +1418,8 @@ div[id^=woocommerce_layered_nav_filters].widget li a:before {
 .woocommerce-message:before {
   top: 19px;
   color: #3C4858;
-  font-family: "FontAwesome";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
 }
 .woocommerce-info > a.button,
 .woocommerce-error > a.button,

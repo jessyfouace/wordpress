@@ -10,13 +10,13 @@
 		init: function () {
 			$( '.iconpicker-items>i' ).on(
 				'click', function () {
-					var iconClass  = $( this ).attr( 'class' ).slice( 3 );
+					var iconClass  = $( this ).attr( 'class' );
 					var classInput = $( this ).parents( '.iconpicker-popover' ).prev().find( '.icp' );
 					classInput.val( iconClass );
 					classInput.attr( 'value', iconClass );
 
 					var iconPreview = classInput.next( '.input-group-addon' );
-					var iconElement = '<i class="fa '.concat( iconClass, '"><\/i>' );
+					var iconElement = '<i class="'.concat( iconClass, '"><\/i>' );
 					iconPreview.empty();
 					iconPreview.append( iconElement );
 					classInput.trigger( 'change' );

@@ -30,7 +30,8 @@ class Hestia_Public {
 		}
 
 		// FontAwesome
-		wp_enqueue_style( 'font-awesome', get_template_directory_uri() . '/assets/font-awesome/css/font-awesome.min.css', array(), HESTIA_VENDOR_VERSION );
+		wp_enqueue_style( 'hestia-font-awesome-all', get_template_directory_uri() . '/assets/font-awesome/css/all.css', array(), HESTIA_VENDOR_VERSION );
+		wp_enqueue_style( 'hestia-font-awesome-shims', get_template_directory_uri() . '/assets/font-awesome/css/v4-shims.min.css', array(), HESTIA_VENDOR_VERSION );
 
 		$stylesheet = $this->get_stylesheet();
 		// Main Stylesheet

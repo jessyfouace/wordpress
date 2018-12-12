@@ -88,7 +88,7 @@ class Hestia_Authors_Section extends Hestia_Abstract_Main {
 						if ( ! empty( $icon ) ) {
 							$icon_class = ! empty( $hestia_authors_on_blog_background ) ? 'btn btn-just-icon btn-simple btn-white' : 'btn btn-just-icon btn-simple';
 								echo '<a href="' . esc_url( $link ) . '" class="' . esc_attr( $icon_class ) . '" >';
-								echo '<i class="fa ' . esc_attr( $icon ) . '"></i>';
+								echo '<i class="' . esc_attr( $icon ) . '"></i>';
 								echo '</a>';
 						}
 					}

@@ -120,13 +120,13 @@ class Hestia_Bootstrap_Navwalker extends Walker_Nav_Menu {
 			/*
 			 * Glyphicons
 			 * ===========
-			 * Since the the menu item is NOT a Divider or Header we check the see
+			 * Since the the menu item is NOT a Divider or Header we check to see
 			 * if there is a value in the attr_title property. If the attr_title
 			 * property is NOT null we apply it as the class name for the glyphicon.
 			 */
 
 			if ( ! empty( $item->attr_title ) && ! $is_wpml_item ) {
-				$item_output .= '<a' . $attributes . '><i class="fa ' . esc_attr( $item->attr_title ) . ' "></i>&nbsp;';
+				$item_output .= '<a' . $attributes . '><i class=" ' . esc_attr( $item->attr_title ) . ' "></i>&nbsp;';
 			} elseif ( in_array( 'hestia-mm-heading', $item->classes ) && ( $item->url === '#' ) ) {
 				$item_output .= '<span class="mm-heading-wrapper">';
 			} elseif ( in_array( 'hestia-mm-heading', $item->classes ) ) {

@@ -160,7 +160,7 @@ class Hestia_About_Controls extends Hestia_Register_Customizer_Controls {
 					'priority'        => 10,
 					'button_text'     => esc_html__( '(Edit)', 'hestia' ),
 					'button_class'    => 'open-editor',
-					'icon_class'      => 'fa-pencil',
+					'icon_class'      => 'fas fa-pencil-alt',
 					'link'            => get_edit_post_link( $frontpage_id ),
 					'active_callback' => array( $this, 'content_shortcut_callback' ),
 				),

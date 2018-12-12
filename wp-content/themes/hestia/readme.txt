@@ -17,6 +17,11 @@ Hestia WordPress theme, Copyright 2018 Themeisle
 Hestia is distributed under the terms of the GNU GPLv2 or later
 
 == Changelog ==
+= 2.0.17 - 2018-12-11  = 
+
+* Update to Font Awesome 5
+
+
 = 2.0.16 - 2018-12-10  = 
 
 * Updated Tested up to version to 5.0

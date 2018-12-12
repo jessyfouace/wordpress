@@ -183,7 +183,7 @@ if ( ! function_exists( 'hestia_comments_list' ) ) {
 						array(
 							'depth'      => $depth,
 							'max_depth'  => $args['max_depth'],
-							'reply_text' => sprintf( '<i class="fa fa-mail-reply"></i> %s', esc_html__( 'Reply', 'hestia' ) ),
+							'reply_text' => sprintf( '<i class="fas fa-reply"></i> %s', esc_html__( 'Reply', 'hestia' ) ),
 						),
 						$comment->comment_ID,
 						$comment->comment_post_ID
@@ -312,7 +312,7 @@ if ( ! function_exists( 'hestia_display_customizer_shortcut' ) ) {
 				<path d="M13.89 3.39l2.71 2.72c.46.46.42 1.24.03 1.64l-8.01 8.02-5.56 1.16 1.16-5.58s7.6-7.63 7.99-8.03c.39-.39 1.22-.39 1.68.07zm-2.73 2.79l-5.59 5.61 1.11 1.11 5.54-5.65zm-2.97 8.23l5.58-5.6-1.07-1.08-5.59 5.6z"></path>
 			</svg>';
 		if ( $is_section_toggle ) {
-			$icon = '<i class="fa fa-eye"></i>';
+			$icon = '<i class="far fa-eye"></i>';
 		}
 		echo
 			'<span class="hestia-hide-section-shortcut customize-partial-edit-shortcut customize-partial-edit-shortcut-' . esc_attr( $class_name ) . '">

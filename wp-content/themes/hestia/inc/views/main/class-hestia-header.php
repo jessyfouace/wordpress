@@ -321,7 +321,7 @@ class Hestia_Header extends Hestia_Abstract_Main {
 		$output .= '<div class="hestia-nav-search">';
 		$output .= $form;
 		$output .= '</div>';
-		$output .= '<div class="hestia-toggle-search"><i class="fa fa-search"></i></div>';
+		$output .= '<div class="hestia-toggle-search"><i class="fas fa-search"></i></div>';
 		$output .= '</li>';
 
 		return $output;

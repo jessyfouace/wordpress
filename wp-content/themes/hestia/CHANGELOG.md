@@ -1,4 +1,8 @@
 
+ ### v2.0.17 - 2018-12-11 
+ **Changes:** 
+ * Update to Font Awesome 5
+ 
  ### v2.0.16 - 2018-12-10 
  **Changes:** 
  * Updated Tested up to version to 5.0

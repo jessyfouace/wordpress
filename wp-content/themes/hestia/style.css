@@ -5,7 +5,7 @@ Theme URI:      https://themeisle.com/themes/hestia/
 Author:         ThemeIsle
 Author URI:     https://themeisle.com
 Description:    Hestia is a modern WordPress theme for professionals. It fits creative business, small businesses (restaurants, wedding planners, sport/medical shops), startups, corporate businesses, online agencies and firms, portfolios, ecommerce (WooCommerce), and freelancers. It has a multipurpose one-page design, widgetized footer, blog/news page and a clean look, is compatible with: Flat Parallax Slider, Photo Gallery, Travel Map and Elementor Page Builder . The theme is responsive, WPML, Retina ready, SEO friendly, and uses Material Kit for design.
-Version:        2.0.16
+Version:        2.0.17
 License:        GNU General Public License v2 or later
 License URI:    http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain:    hestia
@@ -265,7 +265,7 @@ input[type="button"],
   font-weight: 400;
 }
 
-.btn:not(.btn-just-icon):not(.btn-fab) .fa {
+.btn:not(.btn-just-icon):not(.btn-fab) .fa, .btn:not(.btn-just-icon):not(.btn-fab) .fas, .btn:not(.btn-just-icon):not(.btn-fab) .far, .btn:not(.btn-just-icon):not(.btn-fab) .fab {
   font-size: 18px;
 }
 .btn.btn-just-icon {
@@ -275,7 +275,7 @@ input[type="button"],
 .btn.btn-just-icon.btn-lg {
   font-size: 22px;
 }
-.btn .fa {
+.btn .fa, .btn .fas, .btn .far, .btn .fab {
   font-size: 17px;
 }
 
@@ -386,17 +386,17 @@ table > thead > tr > th {
   font-size: 14px;
 }
 
-.carousel .carousel-control .fa {
+.carousel .carousel-control .fa, .carousel .carousel-control .fas {
   font-size: 50px;
 }
 
 .card .footer .stats {
   line-height: 30px;
 }
-.card .footer .stats .fa {
+.card .footer .stats .fa, .card .footer .stats .fas, .card .footer .stats .far, .card .footer .stats .fab {
   font-size: 18px;
 }
-.card .category .fa {
+.card .category .fa, .card .category .fas, .card .category .far, .card .category .fab {
   line-height: 0;
 }
 
@@ -426,7 +426,7 @@ table > thead > tr > th {
 .navbar .navbar-nav > li > a {
   font-weight: 400;
 }
-.navbar .navbar-nav > li > a .fa {
+.navbar .navbar-nav > li > a .fa, .navbar .navbar-nav > li > a .fas, .navbar .navbar-nav > li > a .far, .navbar .navbar-nav > li > a .fab {
   font-size: 20px;
 }
 .navbar .dropdown-menu li > a {
@@ -435,7 +435,7 @@ table > thead > tr > th {
 .navbar .dropdown-menu li > a > i {
   font-size: 20px;
 }
-.navbar .dropdown-menu li > a .fa {
+.navbar .dropdown-menu li > a .fa, .navbar .dropdown-menu li > a .fas, .navbar .dropdown-menu li > a .far, .navbar .dropdown-menu li > a .fab {
   font-size: 20px;
 }
 .navbar .hestia-mm-heading > span {
@@ -938,14 +938,14 @@ aside .widget a {
   }
 
   .navbar .navbar-nav li > a > i,
-  .navbar .navbar-nav li > a .fa {
+  .navbar .navbar-nav li > a .fa, .navbar .navbar-nav li > a .fas, .navbar .navbar-nav li > a .far, .navbar .navbar-nav li > a .fab {
     font-size: 22px;
   }
   .navbar .navbar-nav li .caret {
     font-size: 20px;
   }
   .navbar .navbar-nav li .dropdown > i,
-  .navbar .navbar-nav li .dropdown .fa {
+  .navbar .navbar-nav li .dropdown .fa, .navbar .navbar-nav li .dropdown .fas, .navbar .navbar-nav li .dropdown .far, .navbar .navbar-nav li .dropdown .fab {
     font-size: 20px;
   }
   .navbar .navbar-nav .dropdown .dropdown-menu li a {
@@ -1568,7 +1568,10 @@ input#searchsubmit,
 .btn.btn-round {
   border-radius: 30px;
 }
-.btn:not(.btn-just-icon):not(.btn-fab) .fa {
+.btn:not(.btn-just-icon):not(.btn-fab) .fa,
+.btn:not(.btn-just-icon):not(.btn-fab) .far,
+.btn:not(.btn-just-icon):not(.btn-fab) .fas,
+.btn:not(.btn-just-icon):not(.btn-fab) .fab {
   position: relative;
 }
 .btn.btn-just-icon {
@@ -1593,7 +1596,10 @@ input#searchsubmit,
   color: #3C4858;
 }
 
-.btn .fa {
+.btn .fa,
+.btn .fas,
+.btn .far,
+.btn .fab {
   position: relative;
   top: -1px;
   vertical-align: middle;
@@ -2340,7 +2346,8 @@ select .form-group.is-focused select.form-control[multiple] {
 .woocommerce-product-search:after {
   color: #fff;
   content: "\f002";
-  font-family: 'Fontawesome';
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
   pointer-events: none;
   position: absolute;
   right: 15px;
@@ -2548,7 +2555,7 @@ body.admin-bar .navbar {
   color: inherit;
   opacity: 1;
 }
-.navbar .navbar-nav > li > a .fa {
+.navbar .navbar-nav > li > a .fa, .navbar .navbar-nav > li > a .far, .navbar .navbar-nav > li > a .fas, .navbar .navbar-nav > li > a .fab {
   max-width: 20px;
   position: relative;
   top: 2px;
@@ -2600,7 +2607,7 @@ body.admin-bar .navbar {
   opacity: 0.5;
   text-align: center;
 }
-.navbar .navbar-nav > li .dropdown-menu li > a .fa {
+.navbar .navbar-nav > li .dropdown-menu li > a .fa, .navbar .navbar-nav > li .dropdown-menu li > a .far, .navbar .navbar-nav > li .dropdown-menu li > a .fas, .navbar .navbar-nav > li .dropdown-menu li > a .fab {
   position: relative;
   top: 1px;
   margin-top: -4px;
@@ -2876,7 +2883,8 @@ body.admin-bar .navbar {
 .header-widgets-wrapper .widget.widget_shopping_cart:before {
   color: #333;
   content: "\f07a";
-  font-family: 'Fontawesome';
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
   margin-right: 5px;
 }
 .header-widgets-wrapper .widget.widget_shopping_cart:hover .cart_list {
@@ -2965,7 +2973,8 @@ body.admin-bar .navbar {
 .header-widgets-wrapper ul li a:before {
   background-color: transparent;
   position: static;
-  font-family: 'FontAwesome';
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
 }
 .header-widgets-wrapper ul li a:hover, .header-widgets-wrapper ul li a:focus {
   background-color: transparent;
@@ -3171,7 +3180,7 @@ body.admin-bar .navbar {
   width: 100%;
   height: auto;
 }
-.card .category .fa, .card-no-width .category .fa {
+.card .category .fa, .card .category .far, .card .category .fas, .card .category .fab, .card-no-width .category .fa, .card-no-width .category .far, .card-no-width .category .fas, .card-no-width .category .fab {
   position: relative;
   top: 6px;
 }
@@ -3204,7 +3213,7 @@ body.admin-bar .navbar {
 .card .footer .stats, .card-no-width .footer .stats {
   float: right;
 }
-.card .footer .stats .fa, .card-no-width .footer .stats .fa {
+.card .footer .stats .fa, .card .footer .stats .far, .card .footer .stats .fas, .card .footer .stats .fab, .card-no-width .footer .stats .fa, .card-no-width .footer .stats .far, .card-no-width .footer .stats .fas, .card-no-width .footer .stats .fab {
   position: relative;
   top: 4px;
 }
@@ -3412,7 +3421,7 @@ body.admin-bar .navbar {
   box-shadow: none !important;
   color: inherit !important;
 }
-.card-product .footer .stats .fa {
+.card-product .footer .stats .fa, .card-product .footer .stats .far, .card-product .footer .stats .fas, .card-product .footer .stats .fab {
   top: 0;
   margin-bottom: 2px;
 }
@@ -3987,6 +3996,9 @@ table > tbody > tr:last-child,
   flex: 1;
   max-width: 100%;
 }
+.carousel .carousel-control {
+  opacity: 0.25;
+}
 .carousel .carousel-control.left, .carousel .carousel-control.right {
   z-index: 0;
   background-image: none;
@@ -4018,7 +4030,7 @@ table > tbody > tr:last-child,
    */
   right: 0;
 }
-.carousel .carousel-control .fa {
+.carousel .carousel-control .fa, .carousel .carousel-control .fas {
   display: inline-block;
   position: absolute;
   z-index: 5;
@@ -4126,7 +4138,7 @@ table > tbody > tr:last-child,
     float: none;
     margin: auto;
   }
-  .carousel .carousel-control .fa {
+  .carousel .carousel-control .fa, .carousel .carousel-control .fas {
     left: 50%;
   }
 }
@@ -4609,7 +4621,8 @@ body.product-card-style-plain .hestia-shop {
 }
 .pirate-forms-maps-custom span:after {
   content: '\f00c';
-  font-family: 'FontAwesome';
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
   left: 2px;
   top: 1px;
   color: transparent;
@@ -5221,7 +5234,8 @@ footer.footer.footer-black hr {
 .footer-big .footer-menu li a[href*="mailto:"]:before,
 .footer-big .footer-menu li a[href*="tel:"]:before {
   color: #fff;
-  font-family: 'FontAwesome';
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
 }
 .footer-big .footer-menu li a[href*="mailto:"]:hover:before,
 .footer-big .footer-menu li a[href*="tel:"]:hover:before {
@@ -5243,7 +5257,8 @@ footer.footer.footer-black hr {
 }
 .footer-big .footer-menu li a[href*="facebook.com"]:before {
   content: "";
-  font-family: 'FontAwesome';
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
   color: #3c4858;
   font-size: 16px;
 }
@@ -5262,7 +5277,8 @@ footer.footer.footer-black hr {
 }
 .footer-big .footer-menu li a[href*="twitter.com"]:before {
   content: "";
-  font-family: 'FontAwesome';
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
   color: #3c4858;
   font-size: 16px;
 }
@@ -5281,7 +5297,8 @@ footer.footer.footer-black hr {
 }
 .footer-big .footer-menu li a[href*="pinterest.com"]:before {
   content: "";
-  font-family: 'FontAwesome';
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
   color: #3c4858;
   font-size: 16px;
 }
@@ -5300,7 +5317,8 @@ footer.footer.footer-black hr {
 }
 .footer-big .footer-menu li a[href*="google.com"]:before {
   content: "";
-  font-family: 'FontAwesome';
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
   color: #3c4858;
   font-size: 16px;
 }
@@ -5319,7 +5337,8 @@ footer.footer.footer-black hr {
 }
 .footer-big .footer-menu li a[href*="linkedin.com"]:before {
   content: "";
-  font-family: 'FontAwesome';
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
   color: #3c4858;
   font-size: 16px;
 }
@@ -5338,7 +5357,8 @@ footer.footer.footer-black hr {
 }
 .footer-big .footer-menu li a[href*="dribbble.com"]:before {
   content: "";
-  font-family: 'FontAwesome';
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
   color: #3c4858;
   font-size: 16px;
 }
@@ -5357,7 +5377,8 @@ footer.footer.footer-black hr {
 }
 .footer-big .footer-menu li a[href*="github.com"]:before {
   content: "";
-  font-family: 'FontAwesome';
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
   color: #3c4858;
   font-size: 16px;
 }
@@ -5376,7 +5397,8 @@ footer.footer.footer-black hr {
 }
 .footer-big .footer-menu li a[href*="youtube.com"]:before {
   content: "";
-  font-family: 'FontAwesome';
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
   color: #3c4858;
   font-size: 16px;
 }
@@ -5395,7 +5417,8 @@ footer.footer.footer-black hr {
 }
 .footer-big .footer-menu li a[href*="instagram.com"]:before {
   content: "";
-  font-family: 'FontAwesome';
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
   color: #3c4858;
   font-size: 16px;
 }
@@ -5414,7 +5437,8 @@ footer.footer.footer-black hr {
 }
 .footer-big .footer-menu li a[href*="reddit.com"]:before {
   content: "";
-  font-family: 'FontAwesome';
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
   color: #3c4858;
   font-size: 16px;
 }
@@ -5433,7 +5457,8 @@ footer.footer.footer-black hr {
 }
 .footer-big .footer-menu li a[href*="tumblr.com"]:before {
   content: "";
-  font-family: 'FontAwesome';
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
   color: #3c4858;
   font-size: 16px;
 }
@@ -5452,7 +5477,8 @@ footer.footer.footer-black hr {
 }
 .footer-big .footer-menu li a[href*="behance.com"]:before {
   content: "";
-  font-family: 'FontAwesome';
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
   color: #3c4858;
   font-size: 16px;
 }
@@ -5471,7 +5497,8 @@ footer.footer.footer-black hr {
 }
 .footer-big .footer-menu li a[href*="snapchat.com"]:before {
   content: "";
-  font-family: 'FontAwesome';
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
   color: #3c4858;
   font-size: 16px;
 }
@@ -5490,7 +5517,8 @@ footer.footer.footer-black hr {
 }
 .footer-big .footer-menu li a[href*="deviantart.com"]:before {
   content: "";
-  font-family: 'FontAwesome';
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
   color: #3c4858;
   font-size: 16px;
 }
@@ -5509,7 +5537,8 @@ footer.footer.footer-black hr {
 }
 .footer-big .footer-menu li a[href*="vimeo.com"]:before {
   content: "";
-  font-family: 'FontAwesome';
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
   color: #3c4858;
   font-size: 16px;
 }
@@ -5650,7 +5679,8 @@ footer.footer.footer-black hr {
 .hestia-top-bar .widget.widget_search form.form-group:before, .hestia-top-bar .widget.widget_product_search form.form-group:before {
   color: #fff;
   content: "\f002";
-  font-family: 'Fontawesome';
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
   position: absolute;
   left: 0;
   top: 0;
@@ -5667,7 +5697,8 @@ footer.footer.footer-black hr {
 .hestia-top-bar .widget.widget_shopping_cart:before {
   color: #fff;
   content: "\f07a";
-  font-family: 'Fontawesome';
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
   position: absolute;
   left: 0;
   top: 0;
@@ -5760,7 +5791,8 @@ footer.footer.footer-black hr {
 .hestia-top-bar ul li a:before {
   background-color: transparent;
   position: static;
-  font-family: 'FontAwesome';
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
 }
 .hestia-top-bar ul li a:hover, .hestia-top-bar ul li a:focus {
   background-color: transparent;
@@ -7077,7 +7109,8 @@ aside .widget a {
     color: #555;
     cursor: pointer;
     display: inline-block;
-    font-family: Fontawesome;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 600;
     height: 30px;
     margin-left: 0;
     position: absolute;
@@ -7437,10 +7470,10 @@ aside .widget a {
     top: 0;
     transform: none;
   }
-  .carousel .carousel-control.left .fa {
+  .carousel .carousel-control.left.fa, .carousel .carousel-control.left.far, .carousel .carousel-control.left.fas, .carousel .carousel-control.left.fab {
     left: 10px;
   }
-  .carousel .carousel-control.right .fa {
+  .carousel .carousel-control.right.fa, .carousel .carousel-control.right.far, .carousel .carousel-control.right.fas, .carousel .carousel-control.right.fab {
     right: 10px;
   }
 }
