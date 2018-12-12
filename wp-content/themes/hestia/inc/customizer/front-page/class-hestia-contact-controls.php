@@ -55,7 +55,7 @@ class Hestia_Contact_Controls extends Hestia_Front_Page_Section_Controls_Abstrac
 						),
 						'contact' => array(
 							'label' => esc_html__( 'Contact Content', 'hestia' ),
-							'icon'  => 'newspaper-o',
+							'icon'  => 'newspaper',
 						),
 					),
 					'controls' => array(

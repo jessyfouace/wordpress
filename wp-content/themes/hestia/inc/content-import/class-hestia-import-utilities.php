@@ -220,7 +220,7 @@ class Hestia_Import_Utilities {
 				foreach ( $data as $content_block ) {
 					$contact_html .= '<div class="info info-horizontal">';
 					if ( ! empty( $content_block['icon_value'] ) ) {
-						$contact_html .= '<div class="icon icon-primary"><i class="fa ' . $content_block['icon_value'] . '"></i></div>';
+						$contact_html .= '<div class="icon icon-primary"><i class="fas ' . $content_block['icon_value'] . '"></i></div>';
 					}
 					if ( ! empty( $content_block['text'] ) ) {
 						$contact_html .= '<div class="description">';
@@ -263,7 +263,7 @@ class Hestia_Import_Utilities {
 		if ( ! empty( $data ) ) {
 			foreach ( $data as $item => $values ) {
 				if ( ! empty( $values['icon_value'] ) && strpos( $values['icon_value'], 'icon-' ) !== false ) {
-					$data[ $item ]['icon_value'] = 'fa-circle-o';
+					$data[ $item ]['icon_value'] = 'far fa-circle-o';
 				}
 				if ( ! empty( $values['choice'] ) ) {
 					if ( strpos( $values['choice'], '_icon' ) !== false ) {
@@ -334,7 +334,7 @@ class Hestia_Import_Utilities {
 				}
 
 				if ( strpos( $choice, '_icon' ) !== false && ! empty( $icon ) ) {
-					$ribbon_html .= '<div class="icon" style="color: #008ed6"><i class="fa ' . esc_attr( $icon ) . '"></i></div>';
+					$ribbon_html .= '<div class="icon" style="color: #008ed6"><i class="fas ' . esc_attr( $icon ) . '"></i></div>';
 				}
 				if ( strpos( $choice, '_image' ) !== false && ! empty( $image ) ) {
 					$ribbon_html .= '<div class="card card-plain" style="max-width: 100px;"><img src="' . esc_url( $image ) . '"/></div>';

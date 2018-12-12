@@ -18,7 +18,7 @@ jQuery(document).ready(function($){
 
         if ( processing === true && lock === false ) {
             if( page <= infinite.max_page ){
-                postWrap.append( '<div class="loading text-center"><i class="fa fa-3x fa-spin fa-spinner" aria-hidden="true"></i></div>' );
+                postWrap.append( '<div class="loading text-center"><i class="fas fa-3x fa-spin fa-spinner" aria-hidden="true"></i></div>' );
             }
 
             var counter = $('.flex-row').length;

@@ -360,7 +360,7 @@ class Hestia_Big_Title_Controls extends Hestia_Front_Page_Section_Controls_Abstr
 					'tabs'     => array(
 						'slider' => array(
 							'label' => esc_html__( 'Big Title Section', 'hestia' ),
-							'icon'  => 'picture-o',
+							'icon'  => 'image',
 						),
 						'extra'  => array(
 							'label' => esc_html__( 'Extra', 'hestia' ),

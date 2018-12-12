@@ -216,7 +216,7 @@
 							var modal = $( '.hestia-portfolio-modal' );
 							modal.find( '.modal-content' ).html( result );
 							modal.on( 'hidden.bs.modal', function () {
-								var html = '<div class="portfolio-loading text-center"><i class="fa fa-3x fa-spin fa-circle-o-notch"></i></div>';
+								var html = '<div class="portfolio-loading text-center"><i class="fas fa-3x fa-spin fa-circle-notch"></i></div>';
 								$( this ).find( '.modal-content' ).html( html );
 							} );
 						}
@@ -615,8 +615,8 @@
 		 */
 		'styleDefaultSubscribeWidget': function () {
 			var sibForm = $( '.hestia-subscribe #sib_signup_form_1' );
-			sibForm.find( 'p.sib-email-area' ).before( '<span class="input-group-addon"><i class="fa fa-envelope"></i></span>' );
-			sibForm.find( 'p.sib-NAME-area' ).before( '<span class="input-group-addon"><i class="fa fa-user"></i></span>' );
+			sibForm.find( 'p.sib-email-area' ).before( '<span class="input-group-addon"><i class="fas fa-envelope"></i></span>' );
+			sibForm.find( 'p.sib-NAME-area' ).before( '<span class="input-group-addon"><i class="fas fa-user"></i></span>' );
 			sibForm.find( '.form-group' ).each( function () {
 				$( this ).addClass( 'is-empty' );
 			} );

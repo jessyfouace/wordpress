@@ -224,7 +224,8 @@ class Hestia_Repeater extends WP_Customize_Control {
 	 * Enqueue resources for the control
 	 */
 	public function enqueue() {
-		wp_enqueue_style( 'font-awesome', get_template_directory_uri() . '/assets/font-awesome/css/font-awesome.min.css', array(), HESTIA_VENDOR_VERSION );
+		wp_enqueue_style( 'hestia-font-awesome-all', get_template_directory_uri() . '/assets/font-awesome/css/all.css', array(), HESTIA_VENDOR_VERSION );
+		wp_enqueue_style( 'hestia-font-awesome-shims', get_template_directory_uri() . '/assets/font-awesome/css/v4-shims.min.css', array(), HESTIA_VENDOR_VERSION );
 		wp_enqueue_style( 'wp-color-picker' );
 	}
 
@@ -682,7 +683,7 @@ class Hestia_Repeater extends WP_Customize_Control {
 					/* translators: Fontawesome link with full list of icons available */
 					esc_html__( 'Note: Some icons may not be displayed here. You can see the full list of icons at %1$s.', 'hestia' ),
 					/* translators: Fontawesome link with full list of icons available */
-					sprintf( '<a href="http://fontawesome.io/icons/" rel="nofollow">%s</a>', esc_html__( 'http://fontawesome.io/icons/', 'hestia' ) )
+					sprintf( '<a href="https://fontawesome.com/icons/" rel="nofollow">%s</a>', esc_html__( 'https://fontawesome.com/icons/', 'hestia' ) )
 				);
 				?>
 			</span>
@@ -693,9 +694,14 @@ class Hestia_Repeater extends WP_Customize_Control {
 					echo esc_attr( $value );
 				}
 				echo '" type="text">';
+
+				$class_before = 'fa';
+				if ( substr( $value, 0, 3 ) !== 'fa-' ) {
+					$class_before = '';
+				}
 				?>
 				<span class="input-group-addon">
-					<i class="fa <?php echo esc_attr( $value ); ?>"></i>
+					<i class="<?php echo esc_attr( $class_before . ' ' . $value ); ?>"></i>
 				</span>
 			</div>
 			<?php get_template_part( $this->customizer_icon_container ); ?>
@@ -760,7 +766,7 @@ class Hestia_Repeater extends WP_Customize_Control {
 			/* translators: Fontawesome link with full list of icons available */
 			esc_html__( 'Note: Some icons may not be displayed here. You can see the full list of icons at %1$s.', 'hestia' ),
 			/* translators: Fontawesome link with full list of icons available */
-			sprintf( '<a href="http://fontawesome.io/icons/" rel="nofollow">%s</a>', esc_html__( 'http://fontawesome.io/icons/', 'hestia' ) )
+			sprintf( '<a href="https://fontawesome.com/icons/" rel="nofollow">%s</a>', esc_html__( 'https://fontawesome.com/icons/', 'hestia' ) )
 		);
 		echo '</span>';
 		if ( ! empty( $value ) ) {
@@ -774,7 +780,7 @@ class Hestia_Repeater extends WP_Customize_Control {
 						<?php
 						echo '<input data-placement="bottomRight" class="icp icp-auto" value="';
 						if ( ! empty( $value ) ) {
-							echo esc_attr( $value );
+							echo  $value;
 						}
 						echo '" type="text">';
 						?>
@@ -804,7 +810,7 @@ class Hestia_Repeater extends WP_Customize_Control {
 						echo esc_attr( $social_icon['icon'] );
 					}
 							echo '" type="text">';
-							echo '<span class="input-group-addon"><i class="fa ' . esc_attr( $social_icon['icon'] ) . '"></i></span>';
+							echo '<span class="input-group-addon"><i class="fab ' . esc_attr( $social_icon['icon'] ) . '"></i></span>';
 						echo '</div>';
 						get_template_part( $this->customizer_icon_container );
 						echo '<input type="text" class="customizer-repeater-social-repeater-link" placeholder="' . esc_attr__( 'Link', 'hestia' ) . '" value="';

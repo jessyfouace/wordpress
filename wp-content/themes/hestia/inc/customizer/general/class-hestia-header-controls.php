@@ -70,7 +70,7 @@ class Hestia_Header_Controls extends Hestia_Register_Customizer_Controls {
 					'section'      => 'hestia_top_bar',
 					'button_text'  => esc_html__( 'Very Top Bar', 'hestia' ) . ' ' . esc_html__( 'Menu', 'hestia' ),
 					'button_class' => 'hestia-link-to-top-menu',
-					'icon_class'   => 'fa-bars',
+					'icon_class'   => 'fas fa-bars',
 				),
 				'Hestia_Button'
 			)

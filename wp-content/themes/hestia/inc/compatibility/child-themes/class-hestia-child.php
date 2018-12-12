@@ -236,6 +236,27 @@ class Hestia_Child extends Hestia_Abstract_Main {
 		    }
 	    ';
 
+		/* Compatibility with Font Awesome 5 */
+		$custom_css .= '
+			.pirate_forms_wrap .contact_name_wrap .form-group::before {
+				font-family: "Font Awesome 5 Free";
+                content: "\f007";
+            }
+			.pirate_forms_wrap .contact_email_wrap .form-group::before {
+				font-family: "Font Awesome 5 Free";
+                content: "\f0e0";
+            }
+            .pirate_forms_wrap .contact_subject_wrap .form-group::before {
+                font-family: "Font Awesome 5 Free";
+                content: "\f005";
+            }
+            .fagri-testimonials-wrapper .hestia-testimonials .hestia-testimonials-content .card-testimonial .content .card-description::before {
+                font-family: "Font Awesome 5 Free";
+                content: "\f10e";
+                font-weight: 900;
+            }
+		';
+
 		return $custom_css;
 	}
 

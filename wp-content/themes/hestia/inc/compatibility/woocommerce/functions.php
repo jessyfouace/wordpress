@@ -63,7 +63,7 @@ function hestia_woocommerce_header_add_to_cart_fragment( $fragments ) {
 
 	$fragments['a.cart-contents']  = '<a class="cart-contents btn btn-white pull-right" href="' . esc_url( wc_get_cart_url() ) . '"
 			title="' . esc_attr__( 'View your shopping cart', 'hestia' ) . '">';
-	$fragments['a.cart-contents'] .= '<i class="fa fa-shopping-cart"></i>';
+	$fragments['a.cart-contents'] .= '<i class="fas fa-shopping-cart"></i>';
 	$fragments['a.cart-contents'] .= sprintf(
 		/* translators: %d is number of items */
 			_n( '%d item', '%d items', absint( $woocommerce->cart->cart_contents_count ), 'hestia' ),
@@ -118,7 +118,7 @@ function hestia_woocommerce_before_main_content() {
 				$shop_ordering_class = 'shop-sidebar-active col-xs-9 col-sm-9';
 				?>
 				<div class="col-xs-3 col-sm-3 col-md-3 row-sidebar-toggle">
-					<span class="hestia-sidebar-open btn btn-border"><i class="fa fa-filter"
+					<span class="hestia-sidebar-open btn btn-border"><i class="fas fa-filter"
 								aria-hidden="true"></i></span>
 				</div>
 				<?php
@@ -350,7 +350,7 @@ function hestia_shop_sidebar() {
 		?>
 		<div class="col-md-3 shop-sidebar-wrapper sidebar-toggle-container">
 			<div class="row-sidebar-toggle">
-				<span class="hestia-sidebar-close btn btn-border"><i class="fa fa-times" aria-hidden="true"></i></span>
+				<span class="hestia-sidebar-close btn btn-border"><i class="fas fa-times" aria-hidden="true"></i></span>
 			</div>
 			<aside id="secondary" class="shop-sidebar card <?php echo apply_filters( 'hestia_shop_sidebar_card_classes', 'card-raised' ); ?> <?php echo esc_attr( $class_to_add ); ?>"
 					role="complementary">
@@ -408,7 +408,7 @@ if ( ! function_exists( 'hestia_cart_link_after_primary_navigation' ) ) {
 		?>
 		<a href="<?php echo esc_url( wc_get_cart_url() ); ?>" title="<?php esc_attr_e( 'View cart', 'hestia' ); ?>"
 				class="nav-cart-icon">
-			<i class="fa fa-shopping-cart"></i><?php echo trim( ( WC()->cart->get_cart_contents_count() > 0 ) ? '<span>' . WC()->cart->get_cart_contents_count() . '</span>' : '' ); ?></span>
+			<i class="fas fa-shopping-cart"></i><?php echo trim( ( WC()->cart->get_cart_contents_count() > 0 ) ? '<span>' . WC()->cart->get_cart_contents_count() . '</span>' : '' ); ?></span>
 		</a>
 		<?php
 	}

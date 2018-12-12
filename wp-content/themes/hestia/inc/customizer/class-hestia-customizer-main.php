@@ -80,7 +80,7 @@ class Hestia_Customizer_Main extends Hestia_Register_Customizer_Controls {
 					'section'      => 'background_image',
 					'button_text'  => esc_html__( 'Header Background', 'hestia' ),
 					'button_class' => 'focus-customizer-header-image',
-					'icon_class'   => 'fa-image',
+					'icon_class'   => 'far fa-image',
 				),
 				'Hestia_Button'
 			)

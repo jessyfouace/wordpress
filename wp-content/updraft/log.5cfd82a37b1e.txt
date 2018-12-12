@@ -1,0 +1,236 @@
+0000.000 (0) Opened log file at time: Wed, 12 Dec 2018 10:17:18 +0000 on http://localhost/wordpress
+0000.001 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.15.7 WP: 5.0 PHP: 7.2.13-1+ubuntu16.04.1+deb.sury.org+1 (apache2handler, Linux yesweweb-4 4.15.0-39-generic #42~16.04.1-Ubuntu SMP Wed Oct 24 17:09:54 UTC 2018 x86_64) MySQL: 5.7.24-0ubuntu0.16.04.1 WPLANG: fr_FR Server: Apache/2.4.18 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 10.7M | 2M) multisite: N openssl: OpenSSL 1.1.1  11 Sep 2018 mcrypt: N LANG: C ZipArchive::addFile: N
+0000.008 (0) Free space on disk containing Updraft's temporary directory: 46140.9 MB
+0000.023 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.031 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.036 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1544550264, seconds_ago=59574)
+0000.061 (0) Set semaphore last lock (fd) time to 2018-12-12 10:17:18
+0000.070 (0) Semaphore lock (fd) complete
+0000.082 (0) Backup run: resumption=0, nonce=5cfd82a37b1e, begun at=1544609838 (0s ago), job type=backup
+0000.105 (0) Scheduling a resumption (1) after 300 seconds (1544610139) in case this run gets aborted
+0000.119 (0) Checking if we have a zip executable available
+0000.122 (0) Testing: /usr/bin/zip
+0000.133 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.143 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.157 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.166 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.170 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.181 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.185 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.196 (0) Working binary zip found: /usr/bin/zip
+0000.219 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.223 (0) Creation of backups of directories: beginning
+0000.239 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.319 (0) Total entities for the zip file: 505 directories, 2905 files (0 skipped as non-modified), 46.1 MB
+0000.322 (0) Zip: backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.325 (0) Zip: backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.327 (0) Zip: backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.330 (0) Zip: backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.346 (0) Zip: backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.360 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (17.2 MB, 2905 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0001.247 (0) backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-plugins.zip.tmp: size is now: 5.00 MB
+0001.272 (0) Zip: backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-plugins.zip.tmp: 600 files added (on-disk size: 5129.6 KB)
+0001.278 (0) Zip: backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-plugins.zip.tmp: 700 files added (on-disk size: 5129.6 KB)
+0001.284 (0) Zip: backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-plugins.zip.tmp: 800 files added (on-disk size: 5129.6 KB)
+0001.290 (0) Zip: backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-plugins.zip.tmp: 900 files added (on-disk size: 5129.6 KB)
+0001.302 (0) Zip: backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-plugins.zip.tmp: 1000 files added (on-disk size: 5129.6 KB)
+0001.316 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.6 MB, 2905 files batched, 501 (1002) added so far); re-opening (prior size: 5129.6 KB)
+0001.469 (0) Zip: backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-plugins.zip.tmp: 1100 files added (on-disk size: 5947.1 KB)
+0001.471 (0) Zip: backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-plugins.zip.tmp: 1200 files added (on-disk size: 5947.1 KB)
+0001.474 (0) Zip: backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-plugins.zip.tmp: 1300 files added (on-disk size: 5947.1 KB)
+0001.477 (0) Zip: backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-plugins.zip.tmp: 1400 files added (on-disk size: 5947.1 KB)
+0001.485 (0) Zip: backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-plugins.zip.tmp: 1500 files added (on-disk size: 5947.1 KB)
+0001.498 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.7 MB, 2905 files batched, 501 (1503) added so far); re-opening (prior size: 5947.1 KB)
+0001.738 (0) backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-plugins.zip.tmp: size is now: 7.80 MB
+0001.741 (0) Zip: backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-plugins.zip.tmp: 1600 files added (on-disk size: 7988.2 KB)
+0001.749 (0) Zip: backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-plugins.zip.tmp: 1700 files added (on-disk size: 7988.2 KB)
+0001.763 (0) Zip: backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-plugins.zip.tmp: 1800 files added (on-disk size: 7988.2 KB)
+0001.772 (0) Zip: backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-plugins.zip.tmp: 1900 files added (on-disk size: 7988.2 KB)
+0001.774 (0) Zip: backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-plugins.zip.tmp: 2000 files added (on-disk size: 7988.2 KB)
+0001.776 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.1 MB, 2905 files batched, 501 (2004) added so far); re-opening (prior size: 7988.2 KB)
+0001.922 (0) Zip: backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-plugins.zip.tmp: 2100 files added (on-disk size: 8964.4 KB)
+0001.937 (0) Zip: backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-plugins.zip.tmp: 2200 files added (on-disk size: 8964.4 KB)
+0001.951 (0) Zip: backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-plugins.zip.tmp: 2300 files added (on-disk size: 8964.4 KB)
+0001.954 (0) Zip: backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-plugins.zip.tmp: 2400 files added (on-disk size: 8964.4 KB)
+0001.957 (0) Zip: backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-plugins.zip.tmp: 2500 files added (on-disk size: 8964.4 KB)
+0001.958 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11 MB, 2905 files batched, 501 (2505) added so far); re-opening (prior size: 8964.4 KB)
+0002.508 (0) backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-plugins.zip.tmp: size is now: 11.70 MB
+0002.532 (0) Zip: backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-plugins.zip.tmp: 2600 files added (on-disk size: 11981.1 KB)
+0002.544 (0) Zip: backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-plugins.zip.tmp: 2700 files added (on-disk size: 11981.1 KB)
+0002.549 (0) Zip: backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-plugins.zip.tmp: 2800 files added (on-disk size: 11981.1 KB)
+0002.556 (0) Zip: backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-plugins.zip.tmp: 2900 files added (on-disk size: 11981.1 KB)
+0002.896 (0) backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-plugins.zip.tmp: size is now: 14.10 MB
+0003.093 (0) Created plugins zip (0) - 14452.3 KB in 2.8 s (5092.1 KB/s) (sha1: 94b9df7a4c608c2cae18a74b3b0b60e0c4ffcad3, sha256: 60b15cfb3351b096c9818c2ce7b6af5a34aaef161218db60d698933dd4574c6e)
+0003.096 (0) Beginning creation of dump of themes (split every: 400 MB)
+0003.118 (0) Total entities for the zip file: 142 directories, 528 files (0 skipped as non-modified), 11.7 MB
+0003.133 (0) Zip: backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0003.143 (0) Zip: backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0003.147 (0) Zip: backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0003.152 (0) Zip: backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0003.156 (0) Zip: backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0003.163 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11.3 MB, 528 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0003.501 (0) backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-themes.zip.tmp: size is now: 6.10 MB
+0003.624 (0) Created themes zip (0) - 6375.4 KB in 0.5 s (12104.4 KB/s) (sha1: eb82318c3236237ab06f169056a0cdfbef85cd64, sha256: 6ee77f4b4336f9ac83023a4a3207505f71ae3f8ce85d710a3cf2a3712bd9b1ab)
+0003.645 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0003.647 (0) Looking for candidates to backup in: /home/jessyfouace/Bureau/Travail/PHP/wordpress/wp-content/uploads
+0003.648 (0) finding files: 2018: adding to list (1)
+0003.649 (0) finding files: elementor: adding to list (2)
+0003.649 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0003.664 (0) Total entities for the zip file: 4 directories, 24 files (0 skipped as non-modified), 1.7 MB
+0003.712 (0) backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-uploads.zip.tmp: size is now: 1.70 MB
+0003.739 (0) Created uploads zip (0) - 1777.5 KB in 0.1 s (20006.1 KB/s) (sha1: ce340641d76b345946b7522fb6a96b02d4b1f0d6, sha256: b600000a19e644dbc50fc1f2fba56564da0b0bc75f93fcede8ae7821a9db6099)
+0003.761 (0) Beginning backup of other directories found in the content directory (index: 0)
+0003.769 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0003.771 (0) Looking for candidates to backup in: /home/jessyfouace/Bureau/Travail/PHP/wordpress/wp-content
+0003.773 (0) finding files: updraft: skipping: this is the updraft directory
+0003.776 (0) finding files: languages: adding to list (1)
+0003.778 (0) finding files: uploads: skipping: this is the uploads directory
+0003.786 (0) finding files: plugins: skipping: this is the plugins directory
+0003.799 (0) finding files: upgrade: skipping: excluded by options
+0003.808 (0) finding files: index.php: adding to list (2)
+0003.811 (0) finding files: themes: skipping: this is the themes directory
+0003.820 (0) Total entities for the zip file: 3 directories, 50 files (0 skipped as non-modified), 3.6 MB
+0004.047 (0) backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-others.zip.tmp: size is now: 1.00 MB
+0004.115 (0) Created others zip (0) - 1052.3 KB in 0.3 s (3503.7 KB/s) (sha1: f7335a3a3d81dc6d8f5cd936e0354bfa9cf46033, sha256: e801700a397919548d7cf8d9cdd27faf318ffcb645d71a21ff6e8618943b080c)
+0004.143 (0) Saving backup status to database (elements: 8)
+0004.156 (0) Beginning creation of database dump (WordPress DB)
+0004.160 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0004.200 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wordpress_fym39dtz_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_clien (truncated - 1290 bytes total)
+0004.208 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0004.248 (0) Table wordpress_fym39dtz_options: Total expected rows (approximate): 238
+0004.278 (0) Table wordpress_fym39dtz_options: Total rows added: 239 in 0.03 seconds
+0004.280 (0) Table wordpress_fym39dtz_options: finishing file (backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-db-table-wordpress_fym39dtz_options.table.gz - 44.2 KB)
+0004.295 (0) Table wordpress_fym39dtz_users: Total expected rows (approximate): 1
+0004.312 (0) Table wordpress_fym39dtz_users: Total rows added: 1 in 0.00 seconds
+0004.315 (0) Table wordpress_fym39dtz_users: finishing file (backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-db-table-wordpress_fym39dtz_users.table.gz - 0.6 KB)
+0004.325 (0) Table wordpress_fym39dtz_usermeta: Total expected rows (approximate): 31
+0004.344 (0) Table wordpress_fym39dtz_usermeta: Total rows added: 31 in 0.00 seconds
+0004.355 (0) Table wordpress_fym39dtz_usermeta: finishing file (backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-db-table-wordpress_fym39dtz_usermeta.table.gz - 1.7 KB)
+0004.364 (0) Table wordpress_fym39dtz_commentmeta: Total expected rows (approximate): 0
+0004.375 (0) Table wordpress_fym39dtz_commentmeta: Total rows added: 0 in 0.00 seconds
+0004.389 (0) Table wordpress_fym39dtz_commentmeta: finishing file (backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-db-table-wordpress_fym39dtz_commentmeta.table.gz - 0.4 KB)
+0004.406 (0) Table wordpress_fym39dtz_comments: Total expected rows (approximate): 1
+0004.412 (0) Table wordpress_fym39dtz_comments: Total rows added: 1 in 0.00 seconds
+0004.421 (0) Table wordpress_fym39dtz_comments: finishing file (backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-db-table-wordpress_fym39dtz_comments.table.gz - 0.8 KB)
+0004.450 (0) Table wordpress_fym39dtz_links: Total expected rows (approximate): 0
+0004.456 (0) Table wordpress_fym39dtz_links: Total rows added: 0 in 0.00 seconds
+0004.459 (0) Table wordpress_fym39dtz_links: finishing file (backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-db-table-wordpress_fym39dtz_links.table.gz - 0.5 KB)
+0004.493 (0) Table wordpress_fym39dtz_postmeta: Total expected rows (approximate): 175
+0004.504 (0) Table wordpress_fym39dtz_postmeta: Total rows added: 175 in 0.01 seconds
+0004.508 (0) Table wordpress_fym39dtz_postmeta: finishing file (backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-db-table-wordpress_fym39dtz_postmeta.table.gz - 5.3 KB)
+0004.529 (0) Table wordpress_fym39dtz_posts: Total expected rows (approximate): 43
+0004.552 (0) Table wordpress_fym39dtz_posts: Total rows added: 43 in 0.01 seconds
+0004.556 (0) Table wordpress_fym39dtz_posts: finishing file (backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-db-table-wordpress_fym39dtz_posts.table.gz - 7.1 KB)
+0004.566 (0) Table wordpress_fym39dtz_term_relationships: Total expected rows (approximate): 10
+0004.584 (0) Table wordpress_fym39dtz_term_relationships: Total rows added: 10 in 0.00 seconds
+0004.598 (0) Table wordpress_fym39dtz_term_relationships: finishing file (backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-db-table-wordpress_fym39dtz_term_relationships.table.gz - 0.4 KB)
+0004.609 (0) Table wordpress_fym39dtz_term_taxonomy: Total expected rows (approximate): 3
+0004.615 (0) Table wordpress_fym39dtz_term_taxonomy: Total rows added: 3 in 0.00 seconds
+0004.629 (0) Table wordpress_fym39dtz_term_taxonomy: finishing file (backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-db-table-wordpress_fym39dtz_term_taxonomy.table.gz - 0.5 KB)
+0004.653 (0) Table wordpress_fym39dtz_termmeta: Total expected rows (approximate): 0
+0004.659 (0) Table wordpress_fym39dtz_termmeta: Total rows added: 0 in 0.00 seconds
+0004.662 (0) Table wordpress_fym39dtz_termmeta: finishing file (backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-db-table-wordpress_fym39dtz_termmeta.table.gz - 0.4 KB)
+0004.697 (0) Table wordpress_fym39dtz_terms: Total expected rows (approximate): 3
+0004.703 (0) Table wordpress_fym39dtz_terms: Total rows added: 3 in 0.00 seconds
+0004.707 (0) Table wordpress_fym39dtz_terms: finishing file (backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-db-table-wordpress_fym39dtz_terms.table.gz - 0.4 KB)
+0004.742 (0) Table wordpress_fym39dtz_yoast_seo_links: Total expected rows (approximate): 16
+0004.748 (0) Table wordpress_fym39dtz_yoast_seo_links: Total rows added: 16 in 0.00 seconds
+0004.751 (0) Table wordpress_fym39dtz_yoast_seo_links: finishing file (backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-db-table-wordpress_fym39dtz_yoast_seo_links.table.gz - 0.6 KB)
+0004.774 (0) Table wordpress_fym39dtz_yoast_seo_meta: Total expected rows (approximate): 11
+0004.793 (0) Table wordpress_fym39dtz_yoast_seo_meta: Total rows added: 11 in 0.00 seconds
+0004.796 (0) Table wordpress_fym39dtz_yoast_seo_meta: finishing file (backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-db-table-wordpress_fym39dtz_yoast_seo_meta.table.gz - 0.4 KB)
+0004.807 (0) Table wordpress_fym39dtz_limit_login: Total expected rows (approximate): 0
+0004.819 (0) Table wordpress_fym39dtz_limit_login: Total rows added: 0 in 0.00 seconds
+0004.834 (0) Table wordpress_fym39dtz_limit_login: finishing file (backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-db-table-wordpress_fym39dtz_limit_login.table.gz - 0.3 KB)
+0004.847 (0) Skipping table (lacks our prefix (wordpress_fym39dtz_)): wp_commentmeta
+0004.850 (0) Skipping table (lacks our prefix (wordpress_fym39dtz_)): wp_comments
+0004.853 (0) Skipping table (lacks our prefix (wordpress_fym39dtz_)): wp_limit_login
+0004.863 (0) Skipping table (lacks our prefix (wordpress_fym39dtz_)): wp_links
+0004.879 (0) Skipping table (lacks our prefix (wordpress_fym39dtz_)): wp_options
+0004.889 (0) Skipping table (lacks our prefix (wordpress_fym39dtz_)): wp_postmeta
+0004.891 (0) Skipping table (lacks our prefix (wordpress_fym39dtz_)): wp_posts
+0004.893 (0) Skipping table (lacks our prefix (wordpress_fym39dtz_)): wp_term_relationships
+0004.897 (0) Skipping table (lacks our prefix (wordpress_fym39dtz_)): wp_term_taxonomy
+0004.898 (0) Skipping table (lacks our prefix (wordpress_fym39dtz_)): wp_termmeta
+0004.907 (0) Skipping table (lacks our prefix (wordpress_fym39dtz_)): wp_terms
+0004.923 (0) Skipping table (lacks our prefix (wordpress_fym39dtz_)): wp_usermeta
+0004.933 (0) Skipping table (lacks our prefix (wordpress_fym39dtz_)): wp_users
+0004.936 (0) Skipping table (lacks our prefix (wordpress_fym39dtz_)): wp_yoast_seo_links
+0004.938 (0) Skipping table (lacks our prefix (wordpress_fym39dtz_)): wp_yoast_seo_meta
+0004.945 (0) backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-db-table-wordpress_fym39dtz_options.table.gz (1/30): adding to final database dump
+0004.990 (0) backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-db-table-wordpress_fym39dtz_users.table.gz (2/30): adding to final database dump
+0005.004 (0) backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-db-table-wordpress_fym39dtz_usermeta.table.gz (3/30): adding to final database dump
+0005.008 (0) backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-db-table-wordpress_fym39dtz_commentmeta.table.gz (4/30): adding to final database dump
+0005.011 (0) backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-db-table-wordpress_fym39dtz_comments.table.gz (5/30): adding to final database dump
+0005.014 (0) backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-db-table-wordpress_fym39dtz_links.table.gz (6/30): adding to final database dump
+0005.017 (0) backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-db-table-wordpress_fym39dtz_postmeta.table.gz (7/30): adding to final database dump
+0005.036 (0) backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-db-table-wordpress_fym39dtz_posts.table.gz (8/30): adding to final database dump
+0005.056 (0) backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-db-table-wordpress_fym39dtz_term_relationships.table.gz (9/30): adding to final database dump
+0005.059 (0) backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-db-table-wordpress_fym39dtz_term_taxonomy.table.gz (10/30): adding to final database dump
+0005.063 (0) backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-db-table-wordpress_fym39dtz_termmeta.table.gz (11/30): adding to final database dump
+0005.066 (0) backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-db-table-wordpress_fym39dtz_terms.table.gz (12/30): adding to final database dump
+0005.069 (0) backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-db-table-wordpress_fym39dtz_yoast_seo_links.table.gz (13/30): adding to final database dump
+0005.084 (0) backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-db-table-wordpress_fym39dtz_yoast_seo_meta.table.gz (14/30): adding to final database dump
+0005.099 (0) backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-db-table-wordpress_fym39dtz_limit_login.table.gz (15/30): adding to final database dump
+0005.103 (0) backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-db.gz: finished writing out complete database file (48 KB)
+0005.133 (0) Total database tables backed up: 15 (backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-db.gz, size: 61497, sha256)
+0005.164 (0) backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0005.166 (0) backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0005.175 (0) backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0005.189 (0) backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-others.zip: others: This file has not yet been successfully uploaded: will queue
+0005.199 (0) backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-db.gz: db: This file has not yet been successfully uploaded: will queue
+0005.202 (0) Saving backup history. Total backup size: 23.2 MB
+0005.213 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0005.247 (0) Cloud backup selection (1/1): email with instance (1/1) (last)
+0005.250 (0) Beginning dispatch of backup to remote (email)
+0005.253 (0) backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-plugins.zip: email to: jessy...
+0066.403 (0) Recording as successfully uploaded: backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-plugins.zip
+0066.429 (0) Deleting local file: backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-plugins.zip: OK
+0066.444 (0) backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-themes.zip: email to: jessy...
+0126.980 (0) Recording as successfully uploaded: backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-themes.zip
+0127.013 (0) Deleting local file: backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-themes.zip: OK
+0127.016 (0) backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-uploads.zip: email to: jessy...
+0187.287 (0) Recording as successfully uploaded: backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-uploads.zip
+0187.306 (0) Deleting local file: backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-uploads.zip: OK
+0187.309 (0) backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-others.zip: email to: jessy...
+0247.550 (0) Recording as successfully uploaded: backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-others.zip
+0247.557 (0) Deleting local file: backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-others.zip: OK
+0247.561 (0) backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-db.gz: email to: jessy...
+0307.721 (0) Recording as successfully uploaded: backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-db.gz
+0307.729 (0) Deleting local file: backup_2018-12-12-1117_Repactu_L039actu_de_la_bouff_5cfd82a37b1e-db.gz: OK
+0307.747 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=1, retain_db=1
+0307.763 (0) Number of backup sets in history: 2; groups (db): 1
+0307.766 (0) Examining (for databases) backup set with group_id=0, nonce=5cfd82a37b1e, datestamp=1544609838 (Dec 12 2018 10:17:18)
+0307.769 (0) This backup set is the backup set just made, so will not be deleted.
+0307.769 (0) Examining (for databases) backup set with group_id=0, nonce=81e57c7867c9, datestamp=1544550264 (Dec 11 2018 17:44:24)
+0307.769 (0) 1544550264: db: this set includes a database (backup_2018-12-11-1844_Repactu_L039actu_de_la_bouff_81e57c7867c9-db.gz); db count is now 1
+0307.769 (0) 1544550264: db: over retain limit (1); will delete this database
+0307.769 (0) Delete file: backup_2018-12-11-1844_Repactu_L039actu_de_la_bouff_81e57c7867c9-db.gz, service=email
+0307.805 (0) The time we have been running (307.8) is approaching the resumption interval (300) - increasing resumption interval to 338
+0307.812 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0307.815 (0) Number of backup sets in history: 2; groups (files): 1
+0307.818 (0) Examining (for files) backup set with nonce=5cfd82a37b1e, datestamp=1544609838 (Dec 12 2018 10:17:18)
+0307.818 (0) This backup set is the backup set just made, so will not be deleted.
+0307.827 (0) This backup set is the backup set just made, so will not be deleted.
+0307.827 (0) This backup set is the backup set just made, so will not be deleted.
+0307.827 (0) This backup set is the backup set just made, so will not be deleted.
+0307.828 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0307.842 (0) Examining (for files) backup set with nonce=81e57c7867c9, datestamp=1544550264 (Dec 11 2018 17:44:24)
+0307.842 (0) plugins: over retain limit (1); will delete this file entity
+0307.842 (0) themes: over retain limit (1); will delete this file entity
+0307.842 (0) uploads: over retain limit (1); will delete this file entity
+0307.842 (0) others: over retain limit (1); will delete this file entity
+0307.842 (0) Delete file: backup_2018-12-11-1844_Repactu_L039actu_de_la_bouff_81e57c7867c9-plugins.zip, service=email
+0307.851 (0) Delete file: backup_2018-12-11-1844_Repactu_L039actu_de_la_bouff_81e57c7867c9-themes.zip, service=email
+0307.855 (0) Delete file: backup_2018-12-11-1844_Repactu_L039actu_de_la_bouff_81e57c7867c9-uploads.zip, service=email
+0307.858 (0) Delete file: backup_2018-12-11-1844_Repactu_L039actu_de_la_bouff_81e57c7867c9-others.zip, service=email
+0307.870 (0) This backup set is now empty; will remove from history
+0307.884 (0) Deleting log file (log.81e57c7867c9.txt)
+0307.893 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0307.903 (0) Resume backup (5cfd82a37b1e, 0): finish run
+0307.933 (0) Decremented the semaphore (fd) by 1
+0307.938 (0) Semaphore (fd) unlocked
+0307.941 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0307.962 (0) The backup apparently succeeded and is now complete
+0307.977 (0) No email will/can be sent - the user has not configured an email address.
+0307.980 (0) La sauvegarde a réussie. Elle est maintenant terminée.
