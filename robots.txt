@@ -1,2 +1,5 @@
 User-agent: *
-Disallow: /
+Disallow: /wp-admin/*
+Disallow: /wp-config.php
+Disallow: /wp-config-sample.php
+Disallow: /wp-login.php
